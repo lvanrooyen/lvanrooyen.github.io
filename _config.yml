@@ -1,4 +1,4 @@
-# # Site
+# Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
@@ -9,25 +9,17 @@ version: 2
 name: Louis van Rooyen
 title: Electronics Engineer
 email: vanrooyenl@outlook.com
-website: www.github.com/sproogen/resume-theme
+website: www.linkedin.com/in/louisvanrooyen
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-# github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
-linkedin_username: louis-van-rooyen
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+twitter_username: 
+github_username: louisvanrooyen # (Assuming you have a GitHub, otherwise remove this)
+instagram_username: 
+linkedin_username: louisvanrooyen
+youtube_username: 
 
 # Additional icon links
 additional_links:
@@ -45,65 +37,69 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | 
-  Hi, my name's Louis and I am an electronics engineer with a background in Electric and Electronic Engineering. I specialize in robotics and embedded systems. I have a strong passion for problem-solving and have developed expertise in data analysis, system testing, and prototyping. 
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Louis van Rooyen, an enthusiastic and dedicated Electronics Engineer with a strong background in Electric and Electronic Engineering, specializing in robotics. I have extensive experience in embedded systems, PCB design, and IoT technologies. I'm passionate about problem-solving and innovation, and I love to apply my technical skills to create practical solutions.
 
-  I am most skilled in: <mark>Embedded Software Development (Python, C++)</mark>, <mark>PCB Design</mark>, and <mark>IoT/LoRa Technology</mark>.
+  I am most skilled in: <mark>Embedded Software Development (Python, C++)</mark>, <mark>PCB Design</mark>, and <mark>Raspberry Pi Integration</mark>.
 
 content:
-  - title: Projects 
-    layout: list 
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Remote Event Tracking System
-        link: github.com/sproogen
+        link: https://www.ee.sun.ac.za/
+        # link_text: Project Website
         additional_links:
-          - title: Thesis Project
-            icon: fab fa-github
-            url: github.com/sproogen/project
+          - title: Project Details
+            icon: fas fa-globe
+            url: https://www.ee.sun.ac.za/
         quote: >
-          A remote event tracking system using LoRa technology that improved the efficiency of data collection and transmission.
-        description: |
-          I designed and implemented a remote event tracking system as my thesis project. It used a Raspberry Pi gateway and ESP32 node, programmed in Python and C++, with a custom dashboard built in Plotly and Dash. It involved field tests, custom PCB development, and Matlab-based coverage analysis.
+          Designed and implemented a remote event tracking system using LoRa technology.
+        description: | # this will include new lines to allow paragraphs
+          This project involved designing a remote event tracking system with LoRa technology, comprising a Raspberry Pi gateway and ESP32 node. I programmed it in Python and C++ and created a user-friendly dashboard using Plotly and Dash to display event data. This project highlights my proficiency in embedded systems and IoT technologies.
 
-  - title: Experience 
-    layout: list 
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Stage Zero
         link: https://stagezero.co.za/
         sub_title: Electronics Engineer
-        caption: February 2024 - Present
-        description: |
-            As part of the verification team, I design, build, and implement unit system tests on the production line. I’m also involved in redesigning Test Jigs for production with custom PCBs and Raspberry Pi integration, increasing efficiency.
+        caption: February 2020 - Present
+        quote: >
+          Responsible for designing and implementing system and unit tests in the production environment.
+        description: | # this will include new lines to allow paragraphs
+            As part of the verification team, I design, build, and implement unit system tests to ensure that products meet production standards. I also led a project to redesign Test Jigs by incorporating a custom PCB and Raspberry Pi integration, significantly improving the production process.
 
       - layout: left
         title: SmartGrid Technologies (Pty) Ltd
         link: https://www.igrid.co.za/
         sub_title: Engineering Intern
-        caption: February 2021 - February 2020
-        description: |
-          As an intern, I supported the R&D team with lab setup, prototype assembly, and field trials. I led the development of a magnetic pulse sensor test jig, automated data consolidation using Python, and successfully managed production for 1000 units under tight deadlines.
+        caption: February 2021 - February 2024
+        quote: >
+          Supported R&D tasks, prototype assembly, and automated data management processes.
+        description: | # this will include new lines to allow paragraphs
+          During my internship, I was involved in various R&D engineering tasks such as lab setup, prototype assembly, and field trials. I developed a test jig for a magnetic pulse sensor and automated data consolidation using Python, improving efficiency in data management.
 
-  - title: Education 
-    layout: list 
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Stellenbosch University
         caption: 2016 - 2023
         sub_title: BEng Electric and Electronic Engineering
-        description: |
-          During my time at Stellenbosch University, I completed key courses in control systems, signal processing, and embedded systems. I was a member of the *Harvard Mountaineering Club*, where I held leadership roles such as *Vice-President*.
+        quote: >
+          Achieved a solid foundation in Control Systems, Machine Learning, and Embedded Systems.
+        description: | # this will include new lines to allow paragraphs
+          I completed my Bachelor's degree in Electric and Electronic Engineering with a focus on robotics, embedded systems, and control systems. I gained valuable experience working on complex projects such as the Remote Event Tracking System, which solidified my passion for IoT and embedded software development.
 
   - title: A Little More About Me
     layout: text
-    content: | 
-      Aside from my engineering expertise, I am passionate about:
+    content: | # this will include new lines to allow paragraphs
+      When I’m not working on electronic projects, I enjoy:
       - Rock climbing
       - Gaming
-      - Robotics
-
-# Footer
-footer_show_references: true
+      - Exploring new technologies
+      - Building custom electronics
