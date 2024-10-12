@@ -1,0 +1,106 @@
+# Site settings
+repository: # Add your GitHub repository here
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Louis van Rooyen
+title: Electronics Engineer
+email: vanrooyenl@outlook.com
+phone: +27 83 399 7850
+website: # Add your website if you have one
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# Add your social media profiles here
+linkedin_username: # Add your LinkedIn username
+
+# About Section
+about_title: Profile
+about_profile_image: images/vanRooyen.jpg
+about_content: |
+  Enthusiastic and dedicated engineer with a background in Electric and Electronic Engineering, specializing in robotics. I am eager to apply my technical skills and problem-solving abilities to contribute to innovative projects while embracing challenges and continuously learning.
+
+# Content
+content:
+  - title: Work Experience
+    layout: list
+    content:
+      - layout: right
+        title: Stage Zero
+        sub_title: Electronics Engineer
+        caption: February 2024 - Present
+        description: |
+          - Key member of the verification team, designing, building, and implementing unit system tests on the production line to ensure units meet specifications.
+          - Executing a project to redesign Test Jig's for production purposes by incorporating a custom PCB for Raspberry Pi integration.
+          - Setting up ABS enclosure with a cradle and bed of nails for subsystem PCB testing, utilizing a screen and user input peripherals to eliminate the need for a PC.
+
+      - layout: right
+        title: SmartGrid Technologies (Pty) Ltd
+        sub_title: Engineering Intern
+        caption: February 2020 - February 2021
+        description: |
+          - Supported the R&D department in various engineering tasks, including lab setup, prototype assembly, field trials, and documentation preparation.
+          - Developed a test jig for a magnetic pulse sensor, demonstrating proficiency in requirement analysis, mechanical and electronic design, and hands-on fabrication.
+          - Automated data consolidation using a Python application, improving productivity and efficiency in data management.
+          - Successfully managed the production of 1000 units under pressure, demonstrating leadership, problem-solving skills, and effective resource management.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Stellenbosch University
+        sub_title: Bachelors in Engineering (Electric and Electronic Engineering)
+        caption: 2016 - 2023
+        description: |
+          Final year courses included Control Systems (digital control), Systems and Signal (signal processing), Computer Science (Machine Learning) and Computer Systems (embedded systems).
+
+      - layout: top-right
+        title: Afrikaanse Hoër Seunskool
+        sub_title: High School Diploma
+        caption: 2011 - 2015
+        description: |
+          Achieved 6 distinctions
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Thesis - Remote Event Tracking System
+        description: |
+          - Designed and implemented a remote event tracking system using LoRa technology, consisting of a Raspberry Pi gateway and ESP32 Wrover node.
+          - Programmed the system with Python and C++, and created a user-friendly dashboard using Plotly and Dash to display event data.
+          - Developed a custom PCB for the gateway and node.
+          - Conducted field tests and fine-tuned the system for optimal performance.
+          - Developed a coverage analyzing app utilizing Matlab.
+
+  - title: Skills
+    layout: text
+    content: |
+      - Embedded Software Development (Python and C++)
+      - PCB Design (KiCad)
+      - Matlab
+      - IoT and LoRa Technology
+      - Raspberry Pi Integration
+      - Electronic Prototyping
+      - Data Analysis and Visualization (Plotly and Dash)
+      - Team Collaboration and Leadership
+      - Strong Problem-Solving Abilities
+      - Excellent Communication Skills
+      - Jira - Issue & Project Tracking
+      - Confluence - Web-based corporate wiki
+      - LaTeX
+      - Visual Studio Code
+
+  - title: Languages
+    layout: text
+    content: |
+      - English (Fluent)
+      - Afrikaans (Fluent)
+
+# Footer
+footer_show_references: true
